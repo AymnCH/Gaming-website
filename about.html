@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <style>
+        body {
+            font-family: 'poppins'sans-serif;
+            background-image: url('backgroundImg.jpg');
+    background-size: cover; 
+    background-attachment: fixed;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    margin: 0;
+    padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #0e0c11;
+            border: 2px solid #ccc;
+            border-radius: 10px;
+            text-align: center;
+        }
+        h1 {
+            color: white;
+        }
+        .navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+}
+h1{
+    margin: 0 40px;
+    color: white;
+}
+nav ul li{
+    display: inline-block;
+    margin: 0 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 5px 0;
+    border: 2px solid transparent;
+    filter: drop-shadow(2px 2px 4px transparent);
+    color: white;
+}
+nav ul li a:hover{
+    border-bottom: 2px solid white;
+    filter: drop-shadow(2px 2px 4px white);
+    transition: 0.5s;
+}
+        p {
+            color: #666;
+            line-height: 1.6;
+        }
+        h2{color: #7e60c4;}
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <nav>
+            <ul>
+                <li><a href="index.php">home</a></li>
+                <li><a href="login.php">login</a></li>
+                <li><a href="signup.php">sign up</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="container">
+        
+        <h1>About Our Website</h1>
+        <p>Welcome to our gaming website! We offer a collection of fun and exciting games to keep you entertained for hours. Our website features three popular games:</p>
+        <h2>Tic Tac Toe</h2>
+        <p>Tic Tac Toe is a classic game enjoyed by people of all ages. Test your strategy and outsmart your opponent in this timeless game.</p>
+        <h2>Rock Paper Scissors</h2>
+        <p>Rock Paper Scissors is a simple yet addictive game that requires quick thinking and a bit of luck. Challenge your friends or play against the computer!</p>
+        <h2>Flappy Bird</h2>
+        <p>Flappy Bird is a retro-style game that's easy to learn but difficult to master. Navigate your bird through obstacles and aim for the highest score!</p>
+    </div>
+</body>
+</html>

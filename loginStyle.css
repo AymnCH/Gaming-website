@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins'sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100%;
+   
+    
+}
+
+section{
+        height: 100vh;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        width: 100%;
+        background: url('backgroundImg.jpg');
+        background-size: cover;
+        background-position: center;
+        
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: right;
+    height:93vh;
+    margin-left: 133vh;
+}
+nav ul li{
+    display: inline-block;
+    margin: 0 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 5px 0;
+    border: 2px solid transparent;
+    filter: drop-shadow(2px 2px 4px transparent);
+    color: white;
+}
+nav ul li a:hover{
+    border-bottom: 2px solid white;
+    filter: drop-shadow(2px 2px 4px white);
+    transition: 0.5s;
+}
+
+.wrapper{
+    position: absolute;
+    width: 420px;
+    height: 420px;
+    background: transparent;
+    display: flex;
+    justify-content:right;
+    align-items: right;
+    margin-left: 60px;
+}
+.container{
+    position: relative;
+    width: 256px;
+    height: 256px;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+}
+h1{
+    font-size: 2em;
+    text-align: center;
+    color:white;
+}
+.input-box{
+    position: relative;
+    margin: 30px 0;
+    width: 310px;
+    border-bottom: 2px solid white;
+}
+.input-box label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    color: white;
+    font-size: 1em;
+    pointer-events: none;
+    transition: 0.5s;
+}
+.input-box input:focus~label,
+.input-box input:valid~label{
+    top: -5px;
+}
+.input-box input{
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    padding: 0 35px 0 5px;
+    color: white;
+
+}
+.input-box i {
+    position: absolute;
+    right: 5px;
+    color: rgb(255, 255, 255);
+    font-size: 1.2em;
+    top: 20px;
+}
+.remember-fogot{
+    margin: -15px 0 15px;
+    font-size: .9em;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.remember-fogot label input{
+    margin-right: 5px;
+}
+.remember-fogot label a{
+    color: purple;
+    text-decoration: underline;
+    font-weight: 400;
+}
+.remember-fogot a:hover{
+    text-decoration: underline;
+}
+button{
+    width: 100%;
+    height: 40px;
+    border-radius: 40px;
+    background: rgb(255, 255, 255);
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 600;
+    color: #1f293a;
+}
+.register-link{
+    font-size: .9em;
+    color: white;
+    margin: 25px 0 10px;
+    text-align: center;
+}
+.register-link p a{
+    text-decoration: underline;
+    color: purple;
+    font-weight: 400;
+}
+.register-link p a:hover{
+    text-decoration: underline;
+}
+
+
+.userError,.passError{
+    display: block;
+    color: red;
+    font-size: 14px;
+    margin-top: 5px;
+}

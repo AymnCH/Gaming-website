@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins'sans-serif;
+}
+
+body{
+    background-image: url('backgroundImg.jpg');
+    background-size: cover; 
+    background-attachment: fixed;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+}
+h1{
+    margin: 0 40px;
+    color: white;
+}
+nav ul li{
+    display: inline-block;
+    margin: 0 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 5px 0;
+    border: 2px solid transparent;
+    filter: drop-shadow(2px 2px 4px transparent);
+    color: white;
+}
+nav ul li a:hover{
+    border-bottom: 2px solid white;
+    filter: drop-shadow(2px 2px 4px white);
+    transition: 0.5s;
+}
+.main{
+    margin-top: 2%;
+    margin-right: 60%;
+}
+.content{
+    margin-top: 10%;
+    margin-right: 12%;
+    float: right;
+}
+h2{
+    font-size: 45px;
+    color: white;
+}
+p{
+    font-size: 20px;
+    margin-top: 10px;
+    color:white ;
+}
+.btn{
+    display: flex;
+    padding: 17px 70px;
+    cursor: pointer;
+    border-radius: 40px;
+    font-size: 18px;
+    margin: 10px 75px;
+    color: white;
+    background-color: #7e60c4;
+    filter: drop-shadow(2px 4px 4px transparent);
+    border: none;
+    margin-top: 90px;
+   
+    
+}
+.btn:hover{
+    filter: drop-shadow(2px 4px 4px white);
+    transition: 0.5s;
+}
+.game{
+    margin-right: 20px;
+}
+a {
+    text-decoration: none;
+}
